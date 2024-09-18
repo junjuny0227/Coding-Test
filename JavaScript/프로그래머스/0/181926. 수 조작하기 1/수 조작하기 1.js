@@ -1,4 +1,5 @@
 function solution(n, control) {
+    console.log(n)
     const arr = control.split("");
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === "w") n += 1;
@@ -6,6 +7,5 @@ function solution(n, control) {
         else if (arr[i] === "d") n += 10;
         else if (arr[i] === "a") n -= 10;
     }
-    let answer = n;
-    return answer;
+    return n;
 }
