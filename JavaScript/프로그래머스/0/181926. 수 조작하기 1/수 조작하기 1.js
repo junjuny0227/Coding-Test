@@ -1,5 +1,4 @@
 function solution(n, control) {
-    console.log(n)
     const arr = control.split("");
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === "w") n += 1;
